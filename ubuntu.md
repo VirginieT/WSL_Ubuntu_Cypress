@@ -8,7 +8,7 @@ https://docs.microsoft.com/fr-fr/windows/wsl/setup/environment#set-up-your-linux
 ## 2 - Mettre à jour et mettre à niveau des packages
 
 ```sudo
-`sudo apt update && sudo apt upgrade`
+sudo apt update && sudo apt upgrade
 
 ```
 
@@ -24,7 +24,7 @@ https://docs.microsoft.com/fr-FR/windows/terminal/install
 
 
 ```
-`\\wsl$\<DistroName>\home\<UserName>\Project`
+\\wsl$\<DistroName>\home\<UserName>\Project
 
 ```
 
@@ -42,7 +42,7 @@ https://docs.microsoft.com/fr-fr/windows/wsl/tutorials/wsl-git
 Fiche Kourou : chercher "SSH", puis choisir sur "Git et Github"
 
 ```
-`ssh-keygen -t ed25519 -C "votre-email@exemple.fr" 
+ssh-keygen -t ed25519 -C "votre-email@exemple.fr" 
 cat ~/.ssh/id_ed25519.pub
 
 ```
@@ -60,13 +60,13 @@ https://docs.microsoft.com/fr-fr/windows/wsl/tutorials/wsl-database
 ### Installer MySQL
 
 ```
-`sudo apt update
+sudo apt update
 sudo apt install mysql-server
 mysql --version
 ```
 
 ```
-`sudo /etc/init.d/mysql start
+sudo /etc/init.d/mysql start
 sudo mysql_secure_installation
 
 ```
@@ -74,7 +74,7 @@ sudo mysql_secure_installation
 Commandes MySql
 
 ```
-`sudo mysql
+sudo mysql
 SHOW DATABASES;
 CREATE DATABASE database_name;
 DROP DATABASE database_name;
@@ -95,7 +95,7 @@ sudo nano .profile
 Ajouter: 
 
 ```
-`# My Aliases
+# My Aliases
 alias start-pg='sudo service postgresql start'
 alias run-pg='sudo -u postgres psql'
 ```
