@@ -52,15 +52,7 @@ Github : Settings > SSH and GPG keys > New SSH key > Coller le contenu de la cl√
 
 
 
-## 7 - Configurer une base de donn√©es
-
-https://docs.microsoft.com/fr-fr/windows/wsl/tutorials/wsl-database
-
-
-
-
-
-## 8 - Aliases
+## 7 - Aliases
 
 ```
 cd ~
