@@ -26,3 +26,7 @@ DROP DATABASE <>;
 sudo mysql_secure_installation
 
 ```
+
+https://docs.microsoft.com/fr-fr/windows/wsl/tutorials/wsl-database
+
+
