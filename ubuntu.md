@@ -67,3 +67,10 @@ alias start-pg='sudo service postgresql start'
 alias run-pg='sudo -u postgres psql'
 ```
 
+## 8 - After uninstalling packages from Linux, it’s advised to run these two commands.
+
+sudo apt-get autoclean
+
+Press Y and ENTER if prompted.
+
+sudo apt-get autoremove
