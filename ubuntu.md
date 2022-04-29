@@ -57,32 +57,7 @@ Github : Settings > SSH and GPG keys > New SSH key > Coller le contenu de la cl√
 https://docs.microsoft.com/fr-fr/windows/wsl/tutorials/wsl-database
 
 
-### Installer MySQL
 
-```
-sudo apt update
-sudo apt install mysql-server
-mysql --version
-```
-
-```
-sudo /etc/init.d/mysql start
-sudo mysql_secure_installation
-
-```
-
-Commandes MySql
-
-```
-sudo mysql
-SHOW DATABASES;
-CREATE DATABASE database_name;
-DROP DATABASE database_name;
-```
-
-https://dev.mysql.com/doc/mysql-getting-started/en/
-
-https://marketplace.visualstudio.com/items?itemName=cweijan.vscode-mysql-client2
 
 
 ## 8 - Aliases
@@ -99,3 +74,4 @@ Ajouter:
 alias start-pg='sudo service postgresql start'
 alias run-pg='sudo -u postgres psql'
 ```
+
