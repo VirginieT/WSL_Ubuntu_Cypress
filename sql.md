@@ -1,6 +1,8 @@
+https://marketplace.visualstudio.com/items?itemName=cweijan.vscode-mysql-client2
+
 ## 1 - Installer MySQL
 
-```sudo
+```
 sudo apt update && sudo apt upgrade
 sudo apt install mysql-server
 mysql --version
@@ -16,5 +18,11 @@ https://dev.mysql.com/doc/mysql-getting-started/en/
 SHOW DATABASES;
 CREATE DATABASE <>;
 DROP DATABASE <>;
+
+```
+
+## 3 - Version secure (à faire)
+```
+sudo mysql_secure_installation
 
 ```
