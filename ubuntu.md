@@ -40,6 +40,8 @@ https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remo
 https://docs.microsoft.com/fr-fr/windows/wsl/tutorials/wsl-git
 
 Fiche Kourou : chercher "SSH", puis choisir sur "Git et Github"
+OU
+https://medium.com/featurepreneur/setting-up-ssh-key-with-github-for-ubuntu-cd8f2fabf25b
 
 ```
 ssh-keygen -t ed25519 -C "votre-email@exemple.fr" 
