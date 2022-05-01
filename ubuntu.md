@@ -7,7 +7,7 @@ https://docs.microsoft.com/fr-fr/windows/wsl/setup/environment#set-up-your-linux
 
 ## 2 - Mettre à jour et mettre à niveau des packages
 
-```sudo
+```
 sudo apt update && sudo apt upgrade
 
 ```
@@ -70,9 +70,11 @@ alias run-pg='sudo -u postgres psql'
 ```
 
 ## 8 - After uninstalling packages from Linux, it’s advised to run these two commands.
-
+```
 sudo apt-get autoclean
+```
 
 Press Y and ENTER if prompted.
-
+```
 sudo apt-get autoremove
+```
