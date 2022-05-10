@@ -58,15 +58,14 @@ Github : Settings > SSH and GPG keys > New SSH key > Coller le contenu de la clÃ
 
 ```
 cd ~
-sudo nano .profile
+sudo nano .bashrc
 ```
 
-Ajouter: 
+Ajouter avant "# Alias definitions":
 
 ```
-# My Aliases
-alias start-pg='sudo service postgresql start'
-alias run-pg='sudo -u postgres psql'
+#Custom aliases
+alias gac='git add . && git commit -m'
 ```
 
 ## 8 - After uninstalling packages from Linux, itâ€™s advised to run these two commands.
