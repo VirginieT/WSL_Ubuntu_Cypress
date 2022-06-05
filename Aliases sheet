@@ -1,0 +1,5 @@
+explo = explorer.exe .
+upgd = sudo apt update && sudo apt upgrade
+smsq = sudo mysql -u root -p
+sss = symfony server:start
+gac = git add . && git commit -m
