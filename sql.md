@@ -18,6 +18,7 @@ https://dev.mysql.com/doc/mysql-getting-started/en/
 SHOW DATABASES;
 CREATE DATABASE <>;
 DROP DATABASE <>;
+select user, host from mysql.user;
 
 ```
 
