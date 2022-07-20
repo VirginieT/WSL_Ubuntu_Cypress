@@ -1,0 +1,74 @@
+### Lister arborescence là où on se situe
+```
+ls 
+```
+
+### Connaitre toutes les possibilités
+```
+--help
+```
+
+### Savoir où on est dans un dossier, l'arborescence du fichier
+```
+pwd
+```
+
+### Revenir à la racine du dossier
+```
+cd - 
+```
+
+### Redirection d'une commande
+```
+| 
+```
+
+### Faire une recherche par mot clé
+```
+grep <mot recherché>
+```
+
+###
+```
+ls 
+```
+
+###
+```
+ls 
+```
+
+###
+```
+ls 
+```
+
+###
+```
+ls 
+```
+
+###
+```
+ls 
+```
+
+###
+```
+ls 
+```
+
+###
+```
+ls 
+```
+
+###
+```
+ls 
+```
+
+###
+```
+ls 
+```
