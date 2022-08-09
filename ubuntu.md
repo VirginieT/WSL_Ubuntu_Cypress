@@ -68,6 +68,7 @@ Ajouter avant "# Alias definitions":
 alias gac='git add . && git commit -m'
 ```
 
+
 ## 8 - After uninstalling packages from Linux, it’s advised to run these two commands.
 ```
 sudo apt-get autoclean
