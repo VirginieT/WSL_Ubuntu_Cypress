@@ -23,11 +23,14 @@ select user, host from mysql.user;
 ```
 
 ## 3 - Version secure (à faire)
+https://docs.microsoft.com/fr-fr/windows/wsl/tutorials/wsl-database
 ```
 sudo mysql_secure_installation
 
 ```
 
-https://docs.microsoft.com/fr-fr/windows/wsl/tutorials/wsl-database
+
+## 4 - Récap
+https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-20-04-fr
 
 
