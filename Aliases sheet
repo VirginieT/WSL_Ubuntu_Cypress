@@ -1,9 +1,12 @@
-explo = explorer.exe .
-upgd = sudo apt update && sudo apt upgrade
-smsq = sudo mysql -u root -p
-sss = symfony server:start
-phps = 'php -S 127.0.0.1:8000 -t public'
-sy = 'php bin/console'
-gac = git add . && git commit -m
-gp = 'git push'
-
+alias explo='explorer.exe .'
+alias upgd='sudo apt update && sudo apt upgrade'
+alias sql1='sudo service mysql start'
+alias sql2='mysql -u root -p'
+alias sss='symfony server:start'
+alias php80='php -S 127.0.0.1:8000 -t public'
+alias php88='php -S 127.0.0.1:8080 -t public'
+alias yarn='yarn start'
+alias npm='npm start'
+alias sy='php bin/console'
+alias gac='git add . && git commit -m'
+alias gp='git push'
