@@ -1,3 +1,9 @@
+7 - Aliases
+cd ~
+sudo nano .bashrc
+Ajouter avant "# Alias definitions":
+
+#Custom aliases
 alias explo='explorer.exe .'
 alias upgd='sudo apt update && sudo apt upgrade'
 alias sql1='sudo service mysql start'
