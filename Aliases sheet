@@ -1,6 +1,9 @@
 7 - Aliases
 cd ~
+```
 sudo nano .bashrc
+```
+
 Ajouter avant "# Alias definitions":
 
 #Custom aliases
