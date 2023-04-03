@@ -1,0 +1,19 @@
+Install postman
+`npm install -g newman`
+
+Ci-dessous la ligne de commande permettant d’utiliser le fichier d’environnement.
+`newman run nom_fichier_ma_collection.json -e mon_fichier_env.json`
+
+utilisation de l’option pour stopper une exécution lorsqu’il y a un test en échec.
+`newman run nom_de_la_collection.json --bail`
+
+Spécifier l’absence des “logs” dans le terminal 
+`newman run nom_de_la_collection.json --silent`
+
+https://learning.postman.com/docs/collections/using-newman-cli/newman-options/
+`npm install -g newman-reporter-htmlextra`
+
+Le rapport généré est présent dans le dossier “newman”. Il faut s’y rendre pour récupérer le fichier HTML créé.
+`newman run fichier_json_de_votre_collection.json --reporters=cli,htmlextra`
+
+
