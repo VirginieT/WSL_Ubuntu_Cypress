@@ -1,5 +1,6 @@
 Install postman
 `npm install -g newman`
+wsl2 : `wget https://dl.pstmn.io/download/latest/linux64 -O postman.tar.gz`
 
 Ci-dessous la ligne de commande permettant d’utiliser le fichier d’environnement.
 `newman run nom_fichier_ma_collection.json -e mon_fichier_env.json`
