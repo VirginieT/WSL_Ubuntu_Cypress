@@ -1,0 +1,32 @@
+Avant d'installer Cypress, il faut initialiser npm sur un nouveau projet. 
+Pour cela créez un nouveau dossier, déplacez vous dans ce dossier au Terminal et exécutez la commande suivante 
+`npm init -y`
+
+Ensuite, toujours dans le même répertoire installez Cypress en exécutant la commande suivante au Terminal :
+`npm install cypress –-save-dev`
+
+Modifie le fichier package.json pour ajouter une nouvelle commande qui facilite l'ouverture de Cypress :
+`
+{
+  "scripts": {
+    "cy:open": "cypress open"
+  }
+}
+`
+La ligne de la commande test ("test": "echo "Error: no test ....) est à supprimer
+
+Ensuite, ouvre une session de Terminal dans VS Code (Terminal => Nouveau Terminal) et ouvre le Test Runner de Cypress en exécutant la commande suivante :
+`npm run cy:open`
+
+Créer un fichier jsconfig.json avec le contenu suivant (pour l'autocomplétion)
+`
+{
+    "include": [
+      "./node_modules/cypress",
+      "cypress/**/*.js"
+    ]
+  }
+`
+
+Exécuter les tests `cypress run ` 
+
