@@ -21,3 +21,8 @@ alias sy='php bin/console'
 alias gac='git add . && git commit -m'
 alias gp='git push'
 alias sy='php bin/console'
+alias npminit='npm init -y'
+alias cyinstall='npm install cypress –-save-dev'
+alias cyopen='npm run cy:open'
+alias cyrun='npx cypress run'
+
