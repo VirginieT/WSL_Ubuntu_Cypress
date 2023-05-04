@@ -30,3 +30,5 @@ Créer un fichier jsconfig.json avec le contenu suivant (pour l'autocomplétion)
 
 Exécuter les tests `cypress run ` 
 
+Installer faker
+`npm i @faker-js/faker`
