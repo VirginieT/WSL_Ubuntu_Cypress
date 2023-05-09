@@ -48,6 +48,15 @@ module.exports = defineConfig({
   },
 })`
 
+Reporting : `cypress run --reporter nyan` ou `cypress run --reporter progress`
+Rajouter par exemple pour nyan :
+`module.exports = defineConfig({
+  e2e: {
+    reporter: "nyan",
+  },
+});`
+
+
 
 
 
