@@ -48,6 +48,14 @@ module.exports = defineConfig({
   },
 })`
 
+Exemple avec ces 2 plugin :
+npm install --save-dev cypress-file-upload
+npm install --save-dev cypress-downloadfile
+
+Dans le script cypress/support/commands.js rajouter le bout suivant :
+`import 'cypress-file-upload'
+require('cypress-downloadfile/lib/downloadFileCommand')`
+
 Reporting : `cypress run --reporter nyan` ou `cypress run --reporter progress`
 Rajouter par exemple pour nyan :
 `module.exports = defineConfig({
@@ -56,7 +64,15 @@ Rajouter par exemple pour nyan :
   },
 });`
 
-
+Générer un rapport HTML agrégé : `npm install --save-dev cypress-mochawesome-reporter`
+`module.exports = defineConfig({
+  reporter: "cypress-mochawesome-reporter",
+  e2e: {
+    setupNodeEvents(on, config) {
+      require("cypress-mochawesome-reporter/plugin")(on);
+    },
+  },
+});`
 
 
 
