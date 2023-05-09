@@ -33,6 +33,20 @@ Exécuter les tests `cypress run `
 Installer faker : `npm i @faker-js/faker`
 Et ajouter : `const { faker } = require('@faker-js/faker');`
 
+Installer plugins : `npm install <plugin_name> --save-dev`
+Il faut ajouter la déclaration du plugin dans la fonction setupNodeEvents du fichier de configuration cypress.config.js
+`const { defineConfig } = require('cypress')
+
+module.exports = defineConfig({
+  e2e: {
+    setupNodeEvents(on, config) {
+      // bind les événements qu'on veut
+      on('<event>', (arg1, arg2) => {
+        // plugin stuff here
+      })
+    },
+  },
+})`
 
 
 
